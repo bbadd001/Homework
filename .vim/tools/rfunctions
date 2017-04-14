@@ -1,0 +1,47 @@
+syn keyword rFunction AAKeySortedData AAKeySortedDataList AAMultipleAlignment AAString
+syn keyword rFunction AAStringSet BKeySortedData BKeySortedDataList BString BStringSet
+syn keyword rFunction DNAKeySortedData DNAKeySortedDataList DNAMultipleAlignment
+syn keyword rFunction DNAString DNAStringSet N50 PDict PWM PWMscoreStartingAt
+syn keyword rFunction PairwiseAlignedFixedSubject PairwiseAlignedXStringSet
+syn keyword rFunction PhredQuality QualityScaledAAStringSet QualityScaledBStringSet
+syn keyword rFunction QualityScaledDNAStringSet QualityScaledRNAStringSet
+syn keyword rFunction RNAKeySortedData RNAKeySortedDataList RNAMultipleAlignment
+syn keyword rFunction RNAString RNAStringSet SolexaQuality WCPscoreStartingAt
+syn keyword rFunction XStringViews aligned alphabet alphabetFrequency cDNA codons
+syn keyword rFunction colmask compareStrings complement complementedPalindromeArmLength
+syn keyword rFunction complementedPalindromeLeftArm complementedPalindromeRightArm
+syn keyword rFunction computeAllFlinks consensusMatrix consensusString
+syn keyword rFunction consensusViews countIndex countPDict countPWM
+syn keyword rFunction countPattern countWCP dataKey dataTable deletion detail
+syn keyword rFunction dinucleotideFrequency dinucleotideFrequencyTest dna2rna
+syn keyword rFunction endIndex errorSubstitutionMatrices extractAllMatches fasta.info
+syn keyword rFunction fastq.geometry findComplementedPalindromes findPalindromes
+syn keyword rFunction getSeq gregexpr2 hasAllFlinks hasLetterAt hasOnlyBaseLetters
+syn keyword rFunction indel injectHardMask insertion isMatchingAt isMatchingEndingAt
+syn keyword rFunction isMatchingStartingAt lcprefix lcsubstr lcsuffix letter
+syn keyword rFunction letterFrequency letterFrequencyInSlidingView longestConsecutive
+syn keyword rFunction mask maskGaps maskMotif maskeddim maskedncol maskednrow masks
+syn keyword rFunction matchLRPatterns matchPDict matchPWM matchPattern matchProbePair
+syn keyword rFunction matchWCP matchprobes maxScore maxWeights mergeIUPACLetters
+syn keyword rFunction minScore minWeights mismatch mismatchSummary mismatchTable
+syn keyword rFunction mkAllStrings nedit neditAt neditEndingAt neditStartingAt
+syn keyword rFunction needwunsQS nindel nmatch nmismatch nnodes nucleotideFrequencyAt
+syn keyword rFunction nucleotideSubstitutionMatrix oligonucleotideFrequency
+syn keyword rFunction oligonucleotideTransitions pairwiseAlignment
+syn keyword rFunction palindromeArmLength palindromeLeftArm palindromeRightArm
+syn keyword rFunction partitioning pattern patternFrequency pid pmatchPattern
+syn keyword rFunction quality qualitySubstitutionMatrices read.AAMultipleAlignment
+syn keyword rFunction read.AAStringSet read.BStringSet read.DNAMultipleAlignment
+syn keyword rFunction read.DNAStringSet read.RNAMultipleAlignment read.RNAStringSet
+syn keyword rFunction readFASTA replaceLetterAt reverseComplement rna2dna rowmask
+syn keyword rFunction save.XStringSet setequal startIndex stringDist subpatterns
+syn keyword rFunction tb tb.width toComplex transcribe translate trimLRPatterns
+syn keyword rFunction trinucleotideFrequency type unaligned uniqueLetters unitScale
+syn keyword rFunction unmasked vcountPDict vcountPattern vmatchPDict vmatchPattern
+syn keyword rFunction vwhichPDict which.isMatchingAt which.isMatchingEndingAt
+syn keyword rFunction which.isMatchingStartingAt whichPDict width0 write.XStringSet
+syn keyword rFunction write.phylip writeFASTA xsbasetype xscat Binning CharacterList
+syn keyword rFunction ComplexList DataFrame DataFrameList Dups Filter FilterRules Find
+syn keyword rFunction H2LGrouping IQR IRanges IRangesList IntegerList IntervalTree
+syn keyword rFunction LogicalList Map Mask MaskCollection.show_frame NCOL NROW
+syn keyword rFunction NumericList PartitioningByEnd PartitioningByWidth Position

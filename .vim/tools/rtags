@@ -1,0 +1,216 @@
+AAKeySortedData:function:Biostrings:key=character(0), table=NULL
+AAKeySortedDataList:function:Biostrings:...
+AAMultipleAlignment:function:Biostrings:x=character(), start=NA, end=NA, width=NA, use.names=TRUE, rowmask=NULL, colmask=NULL
+AAString:function:Biostrings:x="", start=1, nchar=NA
+AAStringSet:function:Biostrings:x=character(), start=NA, end=NA, width=NA, use.names=TRUE
+AA_ALPHABET:unknowClass:Biostrings:Not a function
+AMINO_ACID_CODE:unknowClass:Biostrings:Not a function
+BKeySortedData:function:Biostrings:key=character(0), table=NULL
+BKeySortedDataList:function:Biostrings:...
+BString:function:Biostrings:x="", start=1, nchar=NA
+BStringSet:function:Biostrings:x=character(), start=NA, end=NA, width=NA, use.names=TRUE
+DNAKeySortedData:function:Biostrings:key=character(0), table=NULL
+DNAKeySortedDataList:function:Biostrings:...
+DNAMultipleAlignment:function:Biostrings:x=character(), start=NA, end=NA, width=NA, use.names=TRUE, rowmask=NULL, colmask=NULL
+DNAString:function:Biostrings:x="", start=1, nchar=NA
+DNAStringSet:function:Biostrings:x=character(), start=NA, end=NA, width=NA, use.names=TRUE
+DNA_ALPHABET:unknowClass:Biostrings:Not a function
+DNA_BASES:unknowClass:Biostrings:Not a function
+GENETIC_CODE:unknowClass:Biostrings:Not a function
+IUPAC_CODE_MAP:unknowClass:Biostrings:Not a function
+N50:function:Biostrings:csizes
+PDict:standardGeneric:Biostrings:x, max.mismatch=NA, tb.start=NA, tb.end=NA, tb.width=NA, algorithm="ACtree2", skip.invalid.patterns=FALSE
+PWM:standardGeneric:Biostrings:x, type=c("log2probratio", "prob"), prior.params=c(0.25, 0.25, 0.25, 0.25)
+PWMscoreStartingAt:function:Biostrings:pwm, subject, starting.at=1
+PairwiseAlignedFixedSubject:standardGeneric:Biostrings:pattern, subject, type="global", substitutionMatrix=NULL, gapOpening=0, gapExtension=-(1), ...
+PairwiseAlignedXStringSet:standardGeneric:Biostrings:pattern, subject, type="global", substitutionMatrix=NULL, gapOpening=0, gapExtension=-(1), ...
+PhredQuality:function:Biostrings:x
+QualityScaledAAStringSet:function:Biostrings:x, quality
+QualityScaledBStringSet:function:Biostrings:x, quality
+QualityScaledDNAStringSet:function:Biostrings:x, quality
+QualityScaledRNAStringSet:function:Biostrings:x, quality
+RNAKeySortedData:function:Biostrings:key=character(0), table=NULL
+RNAKeySortedDataList:function:Biostrings:...
+RNAMultipleAlignment:function:Biostrings:x=character(), start=NA, end=NA, width=NA, use.names=TRUE, rowmask=NULL, colmask=NULL
+RNAString:function:Biostrings:x="", start=1, nchar=NA
+RNAStringSet:function:Biostrings:x=character(), start=NA, end=NA, width=NA, use.names=TRUE
+RNA_ALPHABET:unknowClass:Biostrings:Not a function
+RNA_BASES:unknowClass:Biostrings:Not a function
+RNA_GENETIC_CODE:unknowClass:Biostrings:Not a function
+SolexaQuality:function:Biostrings:x
+WCPscoreStartingAt:function:Biostrings:wcp, subject, starting.at=1
+XStringViews:standardGeneric:Biostrings:x, subjectClass, collapse=""
+aligned:standardGeneric:Biostrings:x, ...
+alphabet:standardGeneric:Biostrings:x, ...
+alphabetFrequency:standardGeneric:Biostrings:x, as.prob=FALSE, ...
+cDNA:function:Biostrings:x
+codons:standardGeneric:Biostrings:x
+colmask:standardGeneric:Biostrings:x
+colmask<-:unknowClass:Biostrings:x, append="union", invert=FALSE, value
+compareStrings:standardGeneric:Biostrings:pattern, subject
+complement:standardGeneric:Biostrings:x, ...
+complementedPalindromeArmLength:standardGeneric:Biostrings:x, max.mismatch=0, ...
+complementedPalindromeLeftArm:standardGeneric:Biostrings:x, max.mismatch=0, ...
+complementedPalindromeRightArm:standardGeneric:Biostrings:x, max.mismatch=0, ...
+computeAllFlinks:standardGeneric:Biostrings:x, ...
+consensusMatrix:standardGeneric:Biostrings:x, as.prob=FALSE, shift=0, width=NULL, ...
+consensusString:standardGeneric:Biostrings:x, ...
+consensusViews:standardGeneric:Biostrings:x, ...
+countIndex:standardGeneric:Biostrings:x
+countPDict:standardGeneric:Biostrings:pdict, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", verbose=FALSE
+countPWM:standardGeneric:Biostrings:pwm, subject, min.score="80%", ...
+countPattern:standardGeneric:Biostrings:pattern, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto"
+countWCP:standardGeneric:Biostrings:wcp, subject, min.score="80%"
+dataKey:standardGeneric:Biostrings:x
+dataTable:standardGeneric:Biostrings:x
+deletion:standardGeneric:Biostrings:x
+detail:standardGeneric:Biostrings:x, ...
+dinucleotideFrequency:function:Biostrings:x, as.prob=FALSE, as.matrix=FALSE, fast.moving.side="right", with.labels=TRUE, ...
+dinucleotideFrequencyTest:standardGeneric:Biostrings:x, i, j, test=c("chisq", "G", "adjG"), simulate.p.value=FALSE, B=2000
+dna2rna:function:Biostrings:x
+endIndex:standardGeneric:Biostrings:x
+errorSubstitutionMatrices:function:Biostrings:errorProbability, fuzzyMatch=c(0, 1), alphabetLength=4, bitScale=1
+extractAllMatches:function:Biostrings:subject, mindex
+fasta.info:function:Biostrings:filepath, nrec=-(1), skip=0, use.names=TRUE
+fastq.geometry:function:Biostrings:filepath, nrec=-(1), skip=0
+findComplementedPalindromes:standardGeneric:Biostrings:subject, min.armlength=4, max.looplength=1, min.looplength=0, max.mismatch=0
+findPalindromes:standardGeneric:Biostrings:subject, min.armlength=4, max.looplength=1, min.looplength=0, max.mismatch=0
+getSeq:standardGeneric:Biostrings:x, ...
+get_xsbasetypes_conversion_lookup:unknowClass:Biostrings:from_basetype, to_basetype
+gregexpr2:function:Biostrings:pattern, text
+hasAllFlinks:standardGeneric:Biostrings:x
+hasLetterAt:function:Biostrings:x, letter, at, fixed=TRUE
+hasOnlyBaseLetters:standardGeneric:Biostrings:x
+indel:standardGeneric:Biostrings:x
+injectHardMask:standardGeneric:Biostrings:x, letter="+"
+insertion:standardGeneric:Biostrings:x
+isMatchingAt:function:Biostrings:pattern, subject, at=1, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE
+isMatchingEndingAt:standardGeneric:Biostrings:pattern, subject, ending.at=1, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE
+isMatchingStartingAt:standardGeneric:Biostrings:pattern, subject, starting.at=1, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE
+lcprefix:standardGeneric:Biostrings:s1, s2
+lcsubstr:standardGeneric:Biostrings:s1, s2
+lcsuffix:standardGeneric:Biostrings:s1, s2
+letter:standardGeneric:Biostrings:x, i
+letterFrequency:standardGeneric:Biostrings:x, letters, OR="|", as.prob=FALSE, ...
+letterFrequencyInSlidingView:standardGeneric:Biostrings:x, view.width, letters, OR="|", as.prob=FALSE
+longestConsecutive:function:Biostrings:seq, letter
+mask:function:Biostrings:x, start=NA, end=NA, pattern
+maskGaps:standardGeneric:Biostrings:x, ...
+maskMotif:standardGeneric:Biostrings:x, motif, min.block.width=1, ...
+maskeddim:standardGeneric:Biostrings:x
+maskedncol:standardGeneric:Biostrings:x
+maskednrow:standardGeneric:Biostrings:x
+masks:standardGeneric:Biostrings:x
+masks<-:unknowClass:Biostrings:x, value
+matchLRPatterns:standardGeneric:Biostrings:Lpattern, Rpattern, max.gaplength, subject, max.Lmismatch=0, max.Rmismatch=0, with.Lindels=FALSE, with.Rindels=FALSE, Lfixed=TRUE, Rfixed=TRUE
+matchPDict:standardGeneric:Biostrings:pdict, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", verbose=FALSE
+matchPWM:standardGeneric:Biostrings:pwm, subject, min.score="80%", ...
+matchPattern:standardGeneric:Biostrings:pattern, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto"
+matchProbePair:standardGeneric:Biostrings:Fprobe, Rprobe, subject, algorithm="auto", logfile=NULL, verbose=FALSE
+matchWCP:standardGeneric:Biostrings:wcp, subject, min.score="80%"
+matchprobes:function:Biostrings:query, records, probepos=FALSE
+maxScore:standardGeneric:Biostrings:x
+maxWeights:standardGeneric:Biostrings:x
+mergeIUPACLetters:function:Biostrings:x
+minScore:standardGeneric:Biostrings:x
+minWeights:standardGeneric:Biostrings:x
+mismatch:standardGeneric:Biostrings:pattern, x, fixed=TRUE
+mismatchSummary:standardGeneric:Biostrings:x, ...
+mismatchTable:standardGeneric:Biostrings:x, shiftLeft=0, shiftRight=0, ...
+mkAllStrings:function:Biostrings:alphabet, width, fast.moving.side="right"
+nedit:standardGeneric:Biostrings:x
+neditAt:function:Biostrings:pattern, subject, at=1, with.indels=FALSE, fixed=TRUE
+neditEndingAt:standardGeneric:Biostrings:pattern, subject, ending.at=1, with.indels=FALSE, fixed=TRUE
+neditStartingAt:standardGeneric:Biostrings:pattern, subject, starting.at=1, with.indels=FALSE, fixed=TRUE
+needwunsQS:standardGeneric:Biostrings:s1, s2, substmat, gappen=8
+nindel:standardGeneric:Biostrings:x
+nmatch:standardGeneric:Biostrings:pattern, x, fixed=TRUE
+nmismatch:standardGeneric:Biostrings:pattern, x, fixed=TRUE
+nnodes:standardGeneric:Biostrings:x
+nucleotideFrequencyAt:standardGeneric:Biostrings:x, at, as.prob=FALSE, as.array=TRUE, fast.moving.side="right", with.labels=TRUE, ...
+nucleotideSubstitutionMatrix:function:Biostrings:match=1, mismatch=0, baseOnly=FALSE, type="DNA"
+oligonucleotideFrequency:standardGeneric:Biostrings:x, width, as.prob=FALSE, as.array=FALSE, fast.moving.side="right", with.labels=TRUE, ...
+oligonucleotideTransitions:function:Biostrings:x, left=1, right=1, as.prob=FALSE
+pairwiseAlignment:standardGeneric:Biostrings:pattern, subject, ...
+palindromeArmLength:standardGeneric:Biostrings:x, max.mismatch=0, ...
+palindromeLeftArm:standardGeneric:Biostrings:x, max.mismatch=0, ...
+palindromeRightArm:standardGeneric:Biostrings:x, max.mismatch=0, ...
+partitioning:standardGeneric:Biostrings:x
+pattern:standardGeneric:Biostrings:x
+patternFrequency:standardGeneric:Biostrings:x
+pid:standardGeneric:Biostrings:x, type="PID1"
+pmatchPattern:standardGeneric:Biostrings:pattern, subject, maxlength.out=1
+quality:standardGeneric:Biostrings:x
+qualitySubstitutionMatrices:function:Biostrings:fuzzyMatch=c(0, 1), alphabetLength=4, qualityClass="PhredQuality", bitScale=1
+read.AAMultipleAlignment:function:Biostrings:filepath, format
+read.AAStringSet:function:Biostrings:filepath, format="fasta", nrec=-(1), skip=0, use.names=TRUE
+read.BStringSet:function:Biostrings:filepath, format="fasta", nrec=-(1), skip=0, use.names=TRUE
+read.DNAMultipleAlignment:function:Biostrings:filepath, format
+read.DNAStringSet:function:Biostrings:filepath, format="fasta", nrec=-(1), skip=0, use.names=TRUE
+read.RNAMultipleAlignment:function:Biostrings:filepath, format
+read.RNAStringSet:function:Biostrings:filepath, format="fasta", nrec=-(1), skip=0, use.names=TRUE
+readFASTA:function:Biostrings:file, checkComments=TRUE, strip.descs=TRUE
+replaceLetterAt:standardGeneric:Biostrings:x, at, letter, if.not.extending="replace", verbose=FALSE
+reverseComplement:standardGeneric:Biostrings:x, ...
+rna2dna:function:Biostrings:x
+rowmask:standardGeneric:Biostrings:x
+rowmask<-:unknowClass:Biostrings:x, append="union", invert=FALSE, value
+save.XStringSet:function:Biostrings:x, objname, dirpath=".", save.dups=FALSE, verbose=TRUE
+setequal:standardGeneric:Biostrings:x, y
+startIndex:standardGeneric:Biostrings:x
+stringDist:standardGeneric:Biostrings:x, method="levenshtein", ignoreCase=FALSE, diag=FALSE, upper=FALSE, ...
+subpatterns:standardGeneric:Biostrings:x
+tb:standardGeneric:Biostrings:x
+tb.width:standardGeneric:Biostrings:x
+toComplex:standardGeneric:Biostrings:x, baseValues
+transcribe:function:Biostrings:x
+translate:standardGeneric:Biostrings:x
+trimLRPatterns:standardGeneric:Biostrings:Lpattern="", Rpattern="", subject, max.Lmismatch=0, max.Rmismatch=0, with.Lindels=FALSE, with.Rindels=FALSE, Lfixed=TRUE, Rfixed=TRUE, ranges=FALSE
+trinucleotideFrequency:function:Biostrings:x, as.prob=FALSE, as.array=FALSE, fast.moving.side="right", with.labels=TRUE, ...
+type:standardGeneric:Biostrings:x
+unaligned:standardGeneric:Biostrings:x
+uniqueLetters:standardGeneric:Biostrings:x
+unitScale:function:Biostrings:x
+unmasked:standardGeneric:Biostrings:x
+vcountPDict:standardGeneric:Biostrings:pdict, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", collapse=FALSE, weight=1, verbose=FALSE, ...
+vcountPattern:standardGeneric:Biostrings:pattern, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", ...
+vmatchPDict:standardGeneric:Biostrings:pdict, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", verbose=FALSE, ...
+vmatchPattern:standardGeneric:Biostrings:pattern, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", ...
+vwhichPDict:standardGeneric:Biostrings:pdict, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", verbose=FALSE
+which.isMatchingAt:function:Biostrings:pattern, subject, at=1, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, follow.index=FALSE, auto.reduce.pattern=FALSE
+which.isMatchingEndingAt:standardGeneric:Biostrings:pattern, subject, ending.at=1, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, follow.index=FALSE, auto.reduce.pattern=FALSE
+which.isMatchingStartingAt:standardGeneric:Biostrings:pattern, subject, starting.at=1, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, follow.index=FALSE, auto.reduce.pattern=FALSE
+whichPDict:standardGeneric:Biostrings:pdict, subject, max.mismatch=0, min.mismatch=0, with.indels=FALSE, fixed=TRUE, algorithm="auto", verbose=FALSE
+width0:standardGeneric:Biostrings:x
+write.XStringSet:function:Biostrings:x, filepath, append=FALSE, format="fasta", ...
+write.phylip:function:Biostrings:x, filepath
+writeFASTA:function:Biostrings:x, file="", desc=NULL, append=FALSE, width=80
+xsbasetype:standardGeneric:Biostrings:x
+xsbasetype<-:unknowClass:Biostrings:x, value
+xscat:function:Biostrings:...
+%in%:unknowClass:IRanges:x, table
+Binning:function:IRanges:group=integer(), names=NULL
+CharacterList:function:IRanges:..., compress=TRUE
+ComplexList:function:IRanges:..., compress=TRUE
+DataFrame:function:IRanges:..., row.names=NULL
+DataFrameList:function:IRanges:...
+Dups:function:IRanges:high2low=integer()
+Filter:standardGeneric:IRanges:f, x
+FilterRules:function:IRanges:exprs=list(), ..., active=TRUE
+Find:standardGeneric:IRanges:f, x, right=FALSE, nomatch=NULL
+H2LGrouping:function:IRanges:high2low=integer()
+IQR:standardGeneric:IRanges:x, na.rm=FALSE, type=7
+IRanges:function:IRanges:start=NULL, end=NULL, width=NULL, names=NULL
+IRangesList:function:IRanges:..., universe=NULL, compress=TRUE
+IntegerList:function:IRanges:..., compress=TRUE
+IntervalTree:function:IRanges:ranges
+LogicalList:function:IRanges:..., compress=TRUE
+Map:standardGeneric:IRanges:f, ...
+Mask:function:IRanges:mask.width, start=NULL, end=NULL, width=NULL
+MaskCollection.show_frame:function:IRanges:x
+NCOL:standardGeneric:IRanges:x
+NROW:standardGeneric:IRanges:x
+NumericList:function:IRanges:..., compress=TRUE
+PartitioningByEnd:function:IRanges:end=integer(), names=NULL
+PartitioningByWidth:function:IRanges:width=integer(), names=NULL
+Position:standardGeneric:IRanges:f, x, right=FALSE, nomatch=NA
