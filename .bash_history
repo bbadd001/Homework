@@ -1,118 +1,3 @@
-mv HW2 Homework
-ls
-cd Homework/
-ls
-cd Homework/
-ls
-cd --
-ls
-cd bbadd001/
-ls
-cd gen242_2017_bbadd001/
-ls
-cd Homework/
-ls
-cd Homework/
-ls
-cd Homework/
-ls
-cd -
-ls
-cd gen242_2017_bbadd001/
-ls
-ls
-cd Homework/
-ls
-cd HW2
-ls
-cd -
-ls
-less HW2.txt 
-ls
-mv HW2.txt HW2ls
-ls
-git add -A # adds every file in repos
-git commit -am "some edits" # commit changes to git revisioning system
-git push
-ls
-cd HW2
-ls
-cd Homework/
-ls
-ls
-rm Linux.sh 
-rm blastp.out 
-rm ecoli.faa
-rm ecoli.faa.phr 
-rm ecoli.faa.pin 
-rm ecoli.faa.psd 
-rm ecoli.faa.psi
-ls
-rm ecoli.faa.psq
-rm formatdb.log 
-rm myseq.fasta 
-ls
-rm myIDs
-ls
-wget http://biocluster.ucr.edu/~tgirke/Linux.sh # downloads code from this slide
-module load ncbi-blast/2.2.26
-wget  ftp://ftp.ncbi.nih.gov/genomes/genbank/bacteria/Escherichia_coli/latest_assembly_versions/GCA_000461395.1_Esch_coli_UMEA_3592-1_V1/GCA_000461395.1_Esch_coli_UMEA_3592-1_V1_protein.faa.gz
-gunzip GCA_000461395.1_Esch_coli_UMEA_3592-1_V1_protein.faa.gz
-mv GCA_000461395.1_Esch_coli_UMEA_3592-1_V1_protein.faa ecoli.faa
-less ecoli.faa # press q to quit
-grep '>' ecoli.faa | wc
-grep '^>' ecoli.faa --count
-egrep 'W.H..H{1,2}' ecoli.faa --count
-awk --posix -v RS='>' '/W.H..(H){1,2}/ { print ">" $0;}' ecoli.faa | less
-awk --posix -v RS='>' '/W.H..(H){1,2}/ { print ">" $0;}' ecoli.faa | less
-awk --posix -v RS='>' '/W.H..(H){1,2}/ { print ">" $0;}' ecoli.faa | grep '^>' | cut -c 2- | cut -f 1 -d\ > myIDs
-formatdb -i ecoli.faa -p T -o
-fastacmd -d ecoli.faa -i myIDs > myseq.fasta
-blastall -p blastp -i myseq.fasta -d ecoli.faa -o blastp.out -e 1e-6 -v 10 -b 10
-blastall -p blastp -i myseq.fasta -d ecoli.faa -m 8 -e 1e-6 > blastp.tab
-ls
-git clone https://github.com/girke-class/gen242_2017_bbadd001
-ls
-cd gen242_2017_bbadd001/
-ls
-mkdir HW1
-rm HW1
-ls
-mkdir HW1
-mkdir HW2
-ls
-mv HW1.pdf HW1
-ls
-cd --
-ls
-mv blastp.tab HW2.txt
-ls
-mv HW2.txt gen242_2017_bbadd001/
-cd gen242_2017_bbadd001/
-ls
-mv HW2.txt HW2
-ls
-git add -A # adds every file in repos
-git commit -am "some edits" # commit changes to git revisioning system
-git push
-ls
-mv HW1\ Homework\
-mv HW1 Homework/
-cd Homework/
-ls
-ls
-cd HW1
-ls
-cd --
-ls
-cd gen242_2017_bbadd001/
-ls
-cd HW2
-ls
-cd -
-ls
-mv HW2 Homework/
-cd Homework/
 ls
 cd HW2
 ls
@@ -498,3 +383,118 @@ git commit -am "some edits" # commit changes to git revisioning system
 "git push"
 git push
 git push
+ls
+cd gen242_2017_bbadd001/
+ls
+cd Homework/
+ls
+mkdir HW3
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push
+ls
+git push
+ls
+ls
+git push
+ls
+git pull
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+ls
+cd
+ls
+cd gen242_2017_bbadd001/
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+git push -u origin master # push to remote on GitHub
+ls
+cd Homework/
+ls
+cd HW1
+ls
+cd
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+cd gen242_2017_bbadd001/
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+git push
+ls
+cd Homework/
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push
+ls
+cd HW3/
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push
+ls
+cd
+ls
+cd gen242_2017_bbadd001/
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+ls
+cd gen242_2017_bbadd001/
+ls
+cd Homework/
+cd
+ls
+cd gen242_2017_bbadd001/
+git push -u origin master # push to remote on GitHub
+ls
+cd gen242_2017_bbadd001/
+ls
+cd Homework/
+ls
+git pull
+ls
+mv HW3.R HW3
+ls
+cd HW3
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
+ls
+cd gen242_2017_bbadd001/
+ls
+git pull
+ls
+cd Homework/
+ls
+
+
+mv HW4.pdf HW4
+ls
+cd HW4
+ls
+git add -A # adds every file in repos
+git commit -am "some edits" # commit changes to git revisioning system
+git push -u origin master # push to remote on GitHub
